@@ -58,10 +58,9 @@ button {
     border-radius: 8px;
 }
 
-/* .hero-right {
-    background-color: gray;
-    color: white;
-} */
+.hero-secondary {
+    padding-bottom: 8px;
+}
 
 .grey-box {
     width: 400px;
@@ -71,4 +70,16 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.information-text {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding: 32px;
+}
+
+.info-image-container {
+    display: flex;
 }
