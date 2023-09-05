@@ -82,4 +82,42 @@ button {
 
 .info-image-container {
     display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.info-image {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    padding-bottom: 64px;
+}
+
+.image-box {
+    border-width: 5px;
+    border-style: solid;
+    border-color: #3882F6;
+    height: 150px;
+    width: 150px;
+    border-radius: 12px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+}
+
+.quote-author {
+    width: 792px;
+    padding: 64px 30%;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    font-weight: 800;
+    text-align: right;
 }
