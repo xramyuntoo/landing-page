@@ -104,11 +104,14 @@ button {
 
 .quote-container {
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
 }
 
 .quote-author {
     width: 792px;
-    padding: 64px 30%;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .quote {
@@ -120,4 +123,18 @@ button {
 .author {
     font-weight: 800;
     text-align: right;
+}
+
+.signup-container {
+    display: flex;
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.signup {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: center;
 }
